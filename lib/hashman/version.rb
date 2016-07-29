@@ -1,4 +1,4 @@
-module Hashman
+module HashMan
   # hashman version
   VERSION = "0.1.0"
 end

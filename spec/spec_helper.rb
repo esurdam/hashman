@@ -1,4 +1,5 @@
 require 'rspec'
 require 'hashman/version'
 
-include Hashman
+include HashMan
+

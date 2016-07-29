@@ -1,10 +1,15 @@
 name: hashman
-summary: "TODO: Summary"
-description: "TODO: Description"
+summary: "add some hash magic to your classes"
+description: "HashMan takes any number (or uuid) and converts it to a unique hash. Includes methods on your class
+              to access and reverse hash"
 license: MIT
 authors: Evan Surdam
 email: es@cosi.io
 homepage: https://github.com/esurdam/hashman#readme
+
+dependencies:
+  activeuuid: ~> 0.6
+  activesupport: ~> 4.0
 
 development_dependencies:
   bundler: ~> 1.10

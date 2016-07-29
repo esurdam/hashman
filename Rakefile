@@ -10,7 +10,6 @@ end
 
 require 'rake'
 
-
 require 'rubygems/tasks'
 Gem::Tasks.new
 
@@ -23,3 +22,7 @@ task :default => :spec
 require 'yard'
 YARD::Rake::YardocTask.new  
 task :doc => :yard
+
+task :console do
+  exec "irb -r hashman -I ./lib"
+end
